@@ -1,4 +1,130 @@
 /* Css ini berisi css yang diambil dari figma */
 
+/* css font */
 .judul {
+  color: black;
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.body-large {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+small {
+  font-size: 14px;
+}
+
+/* css banner */
+.bg {
+  background-image: linear-gradient(CACCFF, FFFFFF);
+}
+
+.bgprofil {
+  background-color: aqua;
+  clip-path: circle();
+  position: absolute;
+  width: 1172px;
+  height: 973px;
+  left: 268px;
+  top: 0px;
+}
+
+.profil {
+  background-color: aqua;
+  clip-path: polygon(34% 0, 100% 0, 100% 100%, 12% 100%);
+  width: px;
+  height: 300px;
+  position: relative;
+}
+
+.keteranganprofil img {
+  margin-right: 1%;
+}
+
+.profildata {
+  background-color: grey;
+  clip-path: polygon(0 100%, 0 0, 91% 0, 92% 0, 100% 0, 92% 31%, 92% 100%);
+  min-height: auto;
+  height: 70px;
+}
+
+.profildata div {
+  background-color: none;
+  margin: 0 15% 5% 5%;
+  padding: 1% 1% 1% 1%;
+}
+
+.profildata img {
+  background-color: none;
+  margin: 1%;
+}
+
+.profildatadesc {
+  background-color: grey;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    19% 75%,
+    14% 100%,
+    8% 77%,
+    0% 75%
+  );
+  height: 60px;
+}
+
+.profildatadesc div {
+  background-color: none;
+  margin: 0 5% 5% 1%;
+  padding: 0.5% 1% 1% 1%;
+}
+
+.profildatadesc p {
+  background-color: none;
+  margin: 0;
+}
+/* css isi web*/
+.next {
+  width: 20px;
+  height: 20px;
+  background-image: url();
+  position: absolute;
+  text-indent: -9999px;
+  top: 40%;
+  margin-left: 50px;
+}
+
+.prev {
+  background-image: url();
+  margin-left: -100px;
+}
+
+.contact-input {
+  width: 75%;
+  height: 40px;
+  resize: none;
+}
+
+.contact-textarea {
+  width: 75%;
+  height: 30px;
+  resize: none;
 }
